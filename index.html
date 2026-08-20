@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dublin Brief — Dublin, As It Happens.</title>
+<meta name="description" content="Dublin Brief — independent digital news for Dublin.">
+<style>
+:root{--green:#063b32;--green2:#009c49;--gold:#ffc107;--red:#e10600;--navy:#001844;--ink:#111;--paper:#f7f5ef}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink)}
+a{text-decoration:none;color:inherit}.top{background:var(--green);color:white;padding:8px 5%;font-size:12px;display:flex;justify-content:space-between}
+header{background:white;padding:20px 5% 0;border-bottom:1px solid #ddd}.brand{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:900;font-size:42px;letter-spacing:-2px;line-height:.9}.logo span{color:var(--green2)}.tag{font-size:13px;letter-spacing:2px;margin-top:8px}
+.live{background:var(--red);color:#fff;padding:12px 18px;font-weight:800;border-radius:3px}
+nav{display:flex;gap:22px;flex-wrap:wrap;padding:18px 0 14px;font-size:13px;font-weight:800}
+nav a:hover{color:var(--green2)}.breaking{background:var(--red);color:#fff;padding:12px 5%;font-weight:800;display:flex;gap:18px;align-items:center}
+main{max-width:1280px;margin:auto;padding:25px 5%}.hero{display:grid;grid-template-columns:2fr 1fr;gap:22px}
+.hero-main{min-height:430px;background:linear-gradient(0deg,#000c,transparent 65%),url('https://images.unsplash.com/photo-1549918864-48ac978761a7?auto=format&fit=crop&w=1400&q=85') center/cover;display:flex;align-items:end;padding:30px;color:#fff}
+.kicker{font-size:12px;font-weight:900;letter-spacing:1px;color:var(--gold)}h1{font-size:48px;line-height:.98;margin:8px 0;max-width:800px}.summary{font-size:16px;max-width:700px}
+.latest{background:#fff;padding:22px}.latest h2,.section-title{margin:0 0 15px;font-size:25px}.story{padding:15px 0;border-top:1px solid #ddd}.story time{font-size:11px;color:var(--red);font-weight:900}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px}.card{background:#fff}.card img{width:100%;height:150px;object-fit:cover}.card-body{padding:15px}.label{font-size:10px;font-weight:900;color:var(--green2)}h3{font-size:19px;line-height:1.1;margin:8px 0}.video{margin-top:30px;background:var(--green);color:white;padding:30px;display:flex;justify-content:space-between;align-items:center}.video strong{font-size:34px}.events{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:18px}.event{background:#fff;padding:18px;border-left:5px solid var(--gold)}footer{background:#071b17;color:#fff;margin-top:50px;padding:40px 5%;text-align:center}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.grid,.events{grid-template-columns:1fr 1fr}h1{font-size:36px}.logo{font-size:32px}}
+@media(max-width:520px){.grid,.events{grid-template-columns:1fr}.brand{align-items:flex-start;flex-direction:column}.live{align-self:stretch;text-align:center}}
+</style>
+</head>
+<body>
+<div class="top"><span>Thursday · Dublin</span><span>News • People • City • Ireland</span></div>
+<header>
+<div class="brand"><div><div class="logo">DUBLIN <span>BRIEF</span></div><div class="tag">DUBLIN, AS IT HAPPENS.</div></div><div class="live">● LIVE NOW</div></div>
+<nav><a href="#">HOME</a><a href="#">DUBLIN</a><a href="#">IRELAND</a><a href="#">CRIME & SAFETY</a><a href="#">POLITICS</a><a href="#">BUSINESS</a><a href="#">COMMUNITY</a><a href="#">CULTURE</a><a href="#">SPORT</a><a href="#">WHAT'S ON</a></nav>
+</header>
+<div class="breaking"><span>BREAKING NEWS</span><span>Latest developments across Dublin — follow Dublin Brief for updates.</span></div>
+<main>
+<section class="hero">
+<article class="hero-main"><div><div class="kicker">DUBLIN NOW · BREAKING</div><h1>Major developments across Dublin today</h1><p class="summary">Your fast, clear briefing on what is happening across the city.</p></div></article>
+<aside class="latest"><h2>LATEST NEWS</h2><div class="story"><time>22:14</time><br>Dublin city centre updates as services respond to incident.</div><div class="story"><time>21:58</time><br>New plans announced for housing and transport.</div><div class="story"><time>21:41</time><br>What's changing across Dublin this evening.</div><div class="story"><time>21:30</time><br>Airport and travel update for passengers.</div></aside>
+</section>
+<h2 class="section-title" style="margin-top:35px">TOP STORIES</h2>
+<section class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?auto=format&fit=crop&w=800&q=80"><div class="card-body"><div class="label">DUBLIN</div><h3>Transport, city life and the stories shaping Dublin.</h3></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1533471459000-6f7b7a0c5a7d?auto=format&fit=crop&w=800&q=80"><div class="card-body"><div class="label">IRELAND</div><h3>The national stories Dublin residents need to know.</h3></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=800&q=80"><div class="card-body"><div class="label">COMMUNITY</div><h3>The people, neighbourhoods and voices of Dublin.</h3></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=800&q=80"><div class="card-body"><div class="label">BUSINESS</div><h3>Business, jobs and the Dublin economy.</h3></div></article>
+</section>
+<section class="video"><div><div class="kicker">DUBLIN NOW</div><strong>The city in real time.</strong></div><div class="live">WATCH NOW ▶</div></section>
+<h2 class="section-title" style="margin-top:35px">WHAT'S ON IN DUBLIN</h2>
+<section class="events"><div class="event"><b>FRI</b><br>Live music & city events</div><div class="event"><b>SAT</b><br>Food, culture & entertainment</div><div class="event"><b>SUN</b><br>Family events & activities</div><div class="event"><b>THIS WEEK</b><br>What's happening around Dublin</div></section>
+</main>
+<footer><div class="logo">DUBLIN <span>BRIEF</span></div><p>DUBLIN, AS IT HAPPENS.</p><small>© 2026 Dublin Brief · Independent digital news concept</small></footer>
+</body>
+</html>
