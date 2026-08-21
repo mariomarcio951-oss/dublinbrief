@@ -33,7 +33,7 @@ main{max-width:1280px;margin:auto;padding:25px 5%}.hero{display:grid;grid-templa
 <main>
 <section class="hero">
 <article class="hero-main"><div><div class="kicker">DUBLIN NOW · BREAKING</div><h1>Major developments across Dublin today</h1><p class="summary">Your fast, clear briefing on what is happening across the city.</p></div></article>
-<aside class="latest"><h2>LATEST NEWS</h2><div class="story"><time>22:14</time><br>Dublin city centre updates as services respond to incident.</div><div class="story"><time>21:58</time><br>New plans announced for housing and transport.</div><div class="story"><time>21:41</time><br>What's changing across Dublin this evening.</div><div class="story"><time>21:30</time><br>Airport and travel update for passengers.</div></aside>
+<aside class="latest"><h2>LATEST NEWS</h2><div><time>{{formatDate(now; )}}</time><h3>{{16.result.title}}</h3><p>{{ifempty(16.result.subtitle; emptystring)}}</p><div>{{16.result.body}}</div><p>Fonte: {{ifempty(16.result.source_name; 22.source.title)}}</p><p>Fonte original: {{16.result.source_url}}</p></div><div class="story"><time>22:14</time><br>Dublin city centre updates as services respond to incident.</div><div class="story"><time>21:58</time><br>New plans announced for housing and transport.</div><div class="story"><time>21:41</time><br>What's changing across Dublin this evening.</div><div class="story"><time>21:30</time><br>Airport and travel update for passengers.</div></aside>
 </section>
 <h2 class="section-title" style="margin-top:35px">TOP STORIES</h2>
 <section class="grid">
