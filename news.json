@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-09-03T10:00:00Z",
+  "articles": [
+    {
+      "id": 1,
+      "category": "DUBLIN",
+      "title": "Welcome to Dublin Brief",
+      "subtitle": "The latest news from Dublin and Ireland.",
+      "body": "Dublin Brief brings together important news, information and stories from across Dublin and Ireland.",
+      "source_name": "Dublin Brief",
+      "source_url": "",
+      "image": "https://images.unsplash.com/photo-1549918864-48ac978761a7?auto=format&fit=crop&w=1400&q=85",
+      "published_at": "2026-09-03T10:00:00Z"
+    }
+  ]
+}
